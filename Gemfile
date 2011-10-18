@@ -7,6 +7,9 @@ gem 'rails', '3.1.1'
 
 gem 'sqlite3'
 
+gem 'slim'
+gem 'slim-rails'
+
 gem 'json'
 
 # Gems used only for assets and not required
