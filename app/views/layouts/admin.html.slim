@@ -1,0 +1,30 @@
+doctype 5
+html
+  head
+    title I4development Admin
+    = stylesheet_link_tag 'web_app_theme'
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+
+body
+  div id="container"
+    div id="header"
+      h1
+        = link_to "I4development"
+      div id="user-navigation
+        ul.wat-cf
+      div id="main-navigation"
+        ul.wat-cf
+
+    div id="wrapper" class="wat-cf"
+      div.flash
+        /flash.each do |type, message|
+        /div.message#{ type}
+        /p = message
+        /end
+
+      div id="main"
+        = yield
+        div id="footer"
+          div.block
+            p Copyright &copy; #{Time.now.year} Web App.
