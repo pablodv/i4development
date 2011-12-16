@@ -27,7 +27,11 @@ body
         /<% end -%>
       /</div>
       #main
-        = yield
+        .block
+          .content
+            h2.title= controller_name.capitalize
+            .inner
+              = yield
         #footer
           .block
             p Copyright &copy; #{ Time.now.year } Web App.
