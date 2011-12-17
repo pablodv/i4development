@@ -167,7 +167,7 @@ body {
 
 .secondary-navigation {
   font-size: 13px;  
-  border-bottom-width: 10px;
+  /*border-bottom-width: 10px;*/
   border-bottom-style: solid;
 }
 

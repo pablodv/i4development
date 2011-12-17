@@ -28,8 +28,9 @@ body
       /</div>
       #main
         .block
+          = render :partial => 'admin/shared/secondary_navigation'
           .content
-            h2.title= controller_name.capitalize
+            h2.title= controller.controller_name.titleize
             .inner
               = yield
         #footer
