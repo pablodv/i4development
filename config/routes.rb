@@ -4,12 +4,15 @@ I4development::Application.routes.draw do
 
   namespace :admin do
     root :to => 'users#index'
+
     resources :users do
       member do
         put 'block_event'
         put 'unblock_event'
       end
     end
+
+    resources :articles
   end
 
   resources :users

@@ -1,0 +1,14 @@
+table.table
+  tbody
+    tr
+      th Title
+      th Body
+      th.last
+    - @articles.each do |article|
+      tr class="#{ cycle('odd','even')}"
+        td= article.title
+        td= article.body
+        td.last
+          = link_to 'edit', edit_admin_article_path(article)
+          = " | "
+          = link_to 'delete', [:admin, article], :method => :delete, :class => :delete, :confirm => 'Are you sure?'
