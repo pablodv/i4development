@@ -1,2 +1,2 @@
-= form_for [:admin, resource], :html => { :class => 'form'} do |f|
+= form_for [:admin, resource], :html => {:multipart => true, :class => 'form'} do |f|
   = render :partial => "form", :locals => { :f => f }

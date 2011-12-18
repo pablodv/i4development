@@ -1,9 +1,11 @@
 .group
   = f.label :title, :class =>'label'
+  = error_message(resource, :title)
   = f.text_field :title, :class => 'text_field'
 
 .group
   = f.label :body, :class =>'label'
+  = error_message(resource, :body)
   = f.text_area  :body, :class => 'text_area'
 
 .group
