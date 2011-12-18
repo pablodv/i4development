@@ -9,6 +9,7 @@ gem 'slim-rails'
 gem 'json'
 gem 'devise'
 gem 'inherited_resources'
+gem "paperclip", "~> 2.4"
 
 gem 'rack',          '1.3.3'
 gem 'rake',          '0.9.2.2'
