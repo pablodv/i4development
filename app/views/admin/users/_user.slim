@@ -1,0 +1,8 @@
+tr class="#{ cycle('odd','even')}"
+  td= user.first_name
+  td= user.last_name
+  td= user.email
+  td
+    = link_to image_tag("check_#{user.access_blocked? ? '1' : '0'}.png"), determine_block_path(user), :class => 'toogle_resource'
+  td.last
+    = link_to 'Delete', [:admin, user], :method => :delete, :class => :delete, :confirm => 'Are you sure?'
