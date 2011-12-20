@@ -16,8 +16,12 @@ admin/bgd.jpg: admin/bgd-8fc607c8d0e7f3eba1c1324e36e45595.jpg
 admin/boxbar-background.png: admin/boxbar-background-602c87bd981776d11eb275841b75c8db.png
 admin/button-background-active.png: admin/button-background-active-df799424276deddb18bc10b818d6ed6f.png
 admin/button-background.png: admin/button-background-9569aa01949bd297a2ea74d486071f28.png
+admin/icons/application_edit.png: admin/icons/application_edit-120bdb8856c690c867de0f35c76d5b37.png
+admin/icons/cross.png: admin/icons/cross-1f87fac86c438386527b5e7d5ceecb0e.png
+admin/icons/key.png: admin/icons/key-29787eda275775953e8a6df45a4f20c6.png
+admin/icons/tick.png: admin/icons/tick-09de3f730b3b6ef960450a506b0916a9.png
 admin/messages/error.png: admin/messages/error-95ffb90d15613cfd396343e1d6c8842f.png
 admin/messages/notice.png: admin/messages/notice-67fe36e8dacc7be1ef43bde32fa3b84e.png
 admin/messages/warning.png: admin/messages/warning-ee259a750b41727f13760fc303269b9a.png
-application.js: application-ca04e2d4f004c96c4081dc624cdd2a68.js
+application.js: application-88a2ab0c27e5421933546e62e4dd3262.js
 application.css: application-1c9609bc58b1e77c196de29021583379.css
